@@ -1,0 +1,81 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: rgba(30, 30, 30, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin: 2rem 2rem;
+}
+
+section {
+    padding: 0 5rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Assistant', sans-serif;
+}
+
+p, a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.palette-items {
+    display: flex;
+    padding-left: 2rem;
+    margin: 2rem 0;
+}
+
+.palette-item {
+    width: 8rem;
+    height: 5rem;
+    padding: 1rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.palette-item p {
+    font-size: .8em;
+    color: white;
+}
+
+.bg-primary {
+    background-color: rgba(232, 85, 85, 1);
+}
+
+.bg-secondary {
+    background-color: rgba(100, 87, 166, 1);
+}
+
+.bg-dark {
+    background-color: rgba(30, 30, 30, 1);
+}
+
+.bg-light {
+    background-color: rgba(236, 233, 227, 1);
+}
+
+.bg-light > p {
+    color: rgba(30, 30, 30, 1);
+}
+
+.typo-elements {
+    margin: 2rem 0;
+}
+
+.typo-element {
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.paragraphs p {
+    width: 30rem;
+}
